@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class nombrelistasconfilter {
+public class Nombrelistasconfilter {
     public static void main (String[] arg){
 
         ArrayList<String> nombres = new ArrayList<>();
