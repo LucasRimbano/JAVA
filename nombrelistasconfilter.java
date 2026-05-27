@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Nombrelistasconfilter {
     public static void main (String[] arg){
 
-        ArrayList<String> nombres = new ArrayList<>();
+        ArrayList<String> nombres = new ArrayList<>(); //lista dinamica
             nombres.add("Lucas");
             nombres.add("Mario");
             nombres.add("Maria");
