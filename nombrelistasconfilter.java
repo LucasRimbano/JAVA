@@ -28,14 +28,14 @@ public class Nombrelistasconfilter {
                 .forEach(nombre -> System.out.println(nombre));
 
 
-            long cantidad = nombres.stream()
+            long cantidad_con_M = nombres.stream()
                 .filter(nombre-> nombre.startsWith("M"))
                 .count();
 
-            if (cantidad == 0){
+            if (cantidad_con_M == 0){
                 System.out.println("No se encontro ningun nombre con M,lo siento :C");
             }   else{
-                System.out.println("Cantidad de nombres que empiezan con M son:" + cantidad);
+                System.out.println("Cantidad de nombres que empiezan con M son:" + cantidad_con_M);
               
             }
                     
